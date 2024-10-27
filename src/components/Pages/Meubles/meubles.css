@@ -1,0 +1,33 @@
+.carte_container{
+    
+  
+  }
+  
+  .carte:hover{
+    border: 1px solid black;
+  }
+  .carte_container-iner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill.300px);
+    grid-template-rows: 300px;
+    grid-gap: 20px;
+  }
+.carte_img-container{
+    width: 250px; 
+    height: 250px; 
+    overflow: hidden;
+  }
+  .carte{
+   
+  }
+  .carte_title{
+    font-weight: bold;
+  }
+  .carte_img{
+    width: 100%; /* Prend toute la largeur du conteneur */
+    height: 100%; /* Conserve le ratio de l'image */
+    transition: transform 0.5s ease; /* Animation fluide */
+  }
+  .carte_img:hover{
+    transform: scale(1.1);
+  }

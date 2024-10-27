@@ -1,0 +1,25 @@
+/* Breadcrumb.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.breadcrumb { 
+  
+    padding-top: 70px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #333;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb span {
+    color: #555;
+  }
+  

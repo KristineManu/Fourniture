@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700);
+
+
+
+
+.header_inner {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    position: fixed;
+    margin:  0 auto;
+    padding: 0;
+    z-index: 99;
+    background-color: #ffffff;
+ 
+}
+button{
+    
+  all: unset;
+  box-sizing: border-box; 
+}
+
+
+
+
+
+.header_inner-first{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 40px;
+}
+
+.header_inner-second{
+    position: relative;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background-color: #ede0bf;
+  
+}
+
+.popup_content {
+    position: absolute;
+display: flex;
+justify-content: center;
+gap: 50px;
+    top: 100%; /* Place la petite page juste en dessous de l'élément */
+    left: 0;
+    width:100%;
+    padding: 15px;
+    visibility: hidden; /* Masquer par défaut */
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+    z-index: 99; /* Assure que la petite page est devant tout */
+    background-color: #ede0bf;
+    
+}
+.plans:hover .popup_content,
+.news:hover .popup_content,
+.sofas:hover .popup_content,
+.products:hover .popup_content,
+.deco:hover .popup_content
+{
+    visibility: visible;
+    opacity: 1;
+}
+.my_figure{
+    
+    height: 300px;
+    width: 250px;
+}
+    .my_caption {
+        width: 100%;
+        text-align: left;
+        padding: 5px; /* Un peu d'espace autour du texte */
+    }
+    .my_figure img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+.plans {
+    display: flex;
+   
+}
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 45px;
+   
+}
+
+nav a{
+    
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+
+.button{
+    display: inline-block;
+    text-align: center;
+    padding-top: 14px 24px;
+    border:solid white 2px ;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    height: 60px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.store_items__main__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    gap: 25px;
+    padding: 90px 25px;
+}
+
+.store_items__main__container .store_items__main {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.store_items__main__container .store_items__main div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.store_items__main__container .store_items__main div img {
+    width: 100%;
+    height: 100%;
+}
+
+.store_items__main__container .store_items__main h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.store_items__main__container .store_items__main span {
+    text-transform: capitalize;
+    opacity: 0.9;
+}
+
+.store_items__main__container .store_items__main p {
+    color: rgb(139, 138, 138);
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.store_items__main__container .store_items__main h4 {
+    font-size: 18px;
+}
+
+.store_items__main__container .store_items__main h4::after {
+    content: '€';
+}

@@ -1,0 +1,45 @@
+.carousel{
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+.carousel button {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    transform: translateY(-50%);
+    top: 50%;
+    color: aliceblue;
+    
+}
+.carousel_text{
+  
+}
+#prev{
+left: 5px;
+}
+#next{
+right: 5px;
+}
+.carousel li {
+    list-style: none;
+    
+}
+.slide{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+}
+
+.slide.active{
+    opacity: 1;
+}
+.slide img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
